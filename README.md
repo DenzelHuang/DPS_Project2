@@ -18,7 +18,7 @@ To use the script, you must have Docker installed.
 
 If you already have Docker installed open the directory with the Dockerfile and open a terminal there then run the following command to build the Docker image:
 
-`docker build -t trip-benchmark .`
+`docker build -t trip-benchmark`
 
 After building, run the following command to run the script:
 
