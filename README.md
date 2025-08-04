@@ -17,9 +17,11 @@ Download the dataset from this [link](https://drive.google.com/file/d/1uz1vKusNf
 To use the script, you must have Docker installed.
 
 If you already have Docker installed open the directory with the Dockerfile and open a terminal there then run the following command to build the Docker image:
+
 `docker build -t trip-benchmark .`
 
 After building, run the following command to run the script:
+
 `docker run -it --rm -v "$(pwd)/output":/app/output trip-benchmark`
 
 Upon running the script, the user will be prompted to enter a filter method and its threshold, for example: le (less than or equal to) and 1000 (trip distance).
