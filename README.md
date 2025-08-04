@@ -8,7 +8,12 @@ The goal is to compare filtering and sorting speeds using:
 
 The dataset can be found [here](https://drive.google.com/file/d/1uz1vKusNfAz4dKYtkerTnLl7IhVCI5_d/view?usp=sharing).
 
-### System Specifications
+## Methodology
+The program will use each processing method to filter and sort the "trip duration" column then measure the time taken to compare the performance of each method.
+
+Each batch of testing will use a sample of the given data that was randomly split into 25%, 50%, 75%, and 100% segements. This is to see if the performance of each method scales linearly or not.
+
+## System Specifications
 System 1 specs:
 * CPU: [Ryzen 7 5800H](https://www.techpowerup.com/cpu-specs/ryzen-7-5800h.c2368)
   * Cores/Threads: 8/16
