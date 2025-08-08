@@ -35,7 +35,26 @@ System 1 specs:
   * Base Clock Speed: 3.2 GHz
   * Boost Clock Speed: 4.4 GHz
 * RAM: 16 (8x2) GB
-  * Speed: 3200 MT/s
+  * Speed: 3200 MHz
   * CL: 22
   * Type: DDR4
   * Form Factor: SODIM
+
+System 2 specs:
+* CPU: [Intel Core Ultra 7 155H](https://www.techpowerup.com/cpu-specs/core-ultra-7-155h.c3307)
+  * Core/Threads: 16/22
+    * P-Cores: 6
+    * E-Cores: 10
+    * LP E-Cores: 2
+  * P-Core
+    * Base Clock: 3.8 GHz
+    * Boost Clock: 4.8 GHz
+  * E-Core
+    * Base Clock: 1800 MHz
+    * Boost Clock: 3.8 GHz
+  * LP E-Core
+    * Base Clock: 100 MHz
+    * Boost Clock: 2.5 GHz
+* Ram: 32 GB
+  * Type: DDR5
+  * Form Factor: Sodim
